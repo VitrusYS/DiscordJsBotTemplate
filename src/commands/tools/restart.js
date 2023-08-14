@@ -8,6 +8,9 @@ module.exports = {
         .setDescription('Shutdowns bot (if permitted).'),
     async execute(interaction, client) {
 
+        /*
+        * Bot can only be restarted by people with the specified adminId or devRole defined in the .env
+        */
         if (interaction.user.id === adminId || interaction.member.roles.cache.find(r => r.id === devRoleId)) {
             const newMessage = 'Shutting down...';
 
