@@ -5,7 +5,7 @@
 3. Rename the `.envtemplate` file in the root directory of the project to `.env`
 4. In the `.env` file add all tokens
 6. In your terminal, navigate to the repository and run `npm install`
-7. Run `npm start` to start the bot
+7. Run `npm run start` to start the bot
 
 ## Env id's
 
