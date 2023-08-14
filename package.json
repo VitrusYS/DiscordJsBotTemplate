@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/bot.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "startpm": "pm2 start .\\src\\bot.js --namespace bot" 
   },
   "repository": {
     "type": "git",
