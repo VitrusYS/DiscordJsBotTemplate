@@ -16,3 +16,8 @@ token=`Bot Token`
 <br>guildId=`Server ID`
 <br>adminId=`User ID of the Bot Admin`
 <br>devRoleId=`Role of Users able to do admin stuff idk`
+
+## Special Mentions
+
+This Repo is heavily inspired by "[Fusion Terror](https://www.youtube.com/@FusionTerror)" and his series "[How To Make A Discord Bot [Discord.JS v14]](https://www.youtube.com/playlist?list=PLv0io0WjFNn9LDsv1W4fOWygNFzY342Jm)"
+<br> Please check him out if you want to make your own Discord Bot!
