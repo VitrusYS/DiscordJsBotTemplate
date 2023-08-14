@@ -9,7 +9,9 @@
 
 ## Env id's
 
-token=`Bot Token (https://discord.com/developers/applications/{yourBotId}/bot)`
+Get your Bot Token [here](https://discord.com/developers/applications/).
+
+token=`Bot Token` 
 <br>clientId=`Bot Client ID`
 <br>guildId=`Server ID`
 <br>adminId=`User ID of the Bot Admin`
