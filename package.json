@@ -5,7 +5,7 @@
   "main": "src/bot.js",
   "scripts": {
     "start": "node .",
-    "startpm": "pm2 start .\\src\\bot.js --namespace bot" 
+    "startpm": "pm2 start .\\src\\bot.js -n 'TestBot' --watch" 
   },
   "repository": {
     "type": "git",
