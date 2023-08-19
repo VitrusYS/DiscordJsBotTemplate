@@ -13,7 +13,7 @@ module.exports = {
             .setThumbnail(client.user.displayAvatarURL())
             .setTimestamp(Date.now())
             .setAuthor({
-                url: `https://github.com/VitrusYS/PokemonBot`,
+                url: `https://github.com/VitrusYS/DiscordJsBotTemplate`,
                 iconURL: interaction.user.displayAvatarURL(),
                 name: interaction.user.tag,
             })
@@ -21,7 +21,7 @@ module.exports = {
                 iconURL: client.user.displayAvatarURL(),
                 text: client.user.tag
             })
-            .setURL('https://github.com/VitrusYS/PokemonBot#readme')
+            .setURL('https://github.com/VitrusYS/DiscordJsBotTemplate#readme')
             .addFields([
                 {
                     name: `testfieldname1`,
